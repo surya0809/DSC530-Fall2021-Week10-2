@@ -1,0 +1,33 @@
+.fig{
+    fill: #faf8f8;
+}
+table{
+    border: .5px dotted #d2bcbc;
+    border-collapse: collapse;
+    width: 60vw;
+}
+td{
+    border: 0px solid #d2bcbc;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 10vw;
+}
+
+#tooltip {
+    color: black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 10px;
+    background: white;
+    font-family: sans-serif;
+    font-size: medium;
+    border-radius: 10px;
+    line-height: 1;
+}
+
+circle {
+    opacity: 0.8;
+}
